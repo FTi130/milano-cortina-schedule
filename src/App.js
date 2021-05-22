@@ -15,6 +15,7 @@ import Donut from './Donut';
 import FleetSplit from './FleetSplit';
 import BaseBarDep from './BaseBarDep';
 import BaseBarArr from './BaseBarArr';
+import './App.css';
 
 const TOKEN =  'pk.eyJ1IjoidXNlcnBhdiIsImEiOiJja24zZmhxODAwOGpoMnZvMGpnZmtrNnhiIn0.62IOjLEwae3VzgbXme8MNg';
 
@@ -295,7 +296,7 @@ export default function App({
                               theme = DEFAULT_THEME,
                               loopLength = 1049,
                               animationSpeed = 0.1
-                            }) {
+    }) {
 
   // 61.875 is 1 hour
   // 1.03125 is 1 minute
@@ -360,7 +361,7 @@ export default function App({
               layers={layers}
               effects={theme.effects}
               initialViewState={initialViewState}
-              controller={false}
+              controller={true}
           >
             <a href="https://milano-cortina-2026.netlify.app/">
               <button style={buttonstyle}>Back</button>
