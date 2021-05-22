@@ -361,7 +361,7 @@ export default function App({
               layers={layers}
               effects={theme.effects}
               initialViewState={initialViewState}
-              controller={true}
+              controller={false}
           >
             <a href="https://milano-cortina-2026.netlify.app/">
               <button style={buttonstyle}>Back</button>
