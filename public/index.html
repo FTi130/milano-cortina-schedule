@@ -40,4 +40,11 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script type="text/javascript" src="../src/App.js"></script>
+
+  <script type="text/javascript">
+    import * as App from "../src/App";
+
+    App.renderToDOM(document.getElementById('app'));
+  </script>
 </html>
