@@ -2,10 +2,11 @@
 
 Hosted on Netlify [here](https://milano-cortina-2026.netlify.app/)
 
+We developed two interconnected studies for upcoming Olympic Games. At first, we conducted a transport and demand analysis needed for a fleet estimation and public transport planning during the Games and its conversion into a modern system after. Secondly, the analysis of Hydrogen Public Transport approaches is provided.
 
 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
